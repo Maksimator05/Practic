@@ -17,7 +17,7 @@ func main() {
 
 	index := strings.Index(str, substr)
 
-	if index == -1 {
+	if index != -1 {
 		fmt.Printf("2. Substring '%s' find on position %d\n", substr, index)
 	} else {
 		fmt.Printf("3. Substring '%s' not found\n", substr)
