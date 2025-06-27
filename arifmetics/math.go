@@ -16,7 +16,7 @@ func main() {
 
 	fmt.Println("Основные операции:")
 	fmt.Printf("%.2f + %.2f = %.2f\n", a, b, a+b)
-	fmt.Printf("%.2f * %.2f = %.2f = %.2f\n", a, b, a*b)
+	fmt.Printf("%.2f * %.2f = %.2f\n", a, b, a*b)
 	fmt.Printf("%.2f - %.2f = %.2f\n", a, b, a-b)
 	if b != 0 {
 		fmt.Printf("%.2f / %.2f = %.2f\n", a, b, a/b)

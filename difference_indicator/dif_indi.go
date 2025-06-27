@@ -15,11 +15,6 @@ func modifyByPointer(ptr *int) {
 
 }
 
-type Person struct {
-	Name string
-	Age  int
-}
-
 func main() {
 	// Демонстрация с простым типом (int)
 	value := 10

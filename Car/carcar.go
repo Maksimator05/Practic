@@ -4,11 +4,11 @@ import "fmt"
 
 // Двигатель - вложенная структура
 type Engine struct {
-	Power        int     // мощность в л.с.
-	Volume       float32 // объем в литрах
-	FuelType     string  // тип топлива
-	IsTurbo      bool    // наличие турбины
-	Manufacturer string  // производитель
+	Power        int
+	Volume       float32
+	FuelType     string
+	IsTurbo      bool
+	Manufacturer string
 }
 
 // Автомобиль - основная структура
@@ -16,7 +16,7 @@ type Car struct {
 	Brand      string
 	Model      string
 	Year       int
-	Mileage    int    // пробег в км
+	Mileage    int
 	EngineInfo Engine // вложенная структура двигателя
 }
 
